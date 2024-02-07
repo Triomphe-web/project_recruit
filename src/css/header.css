@@ -1,0 +1,14 @@
+a.nav-link{
+    font-weight: bold;
+    margin-left: 60px;
+}
+nav{
+    border-bottom: 0.2px solid rgba(172, 170, 170, 0.192);
+}
+img.logo{
+    width: 20px;
+    height: 20px;
+}
+i{
+    opacity: 0.2;
+}

@@ -1,0 +1,46 @@
+body{
+    background-color: rgba(10, 10, 10, 0.856);
+}
+p.service{
+    margin-top: 50px;
+    color: rgba(220, 20, 60, 0.747);
+    font-weight: bold;
+}
+.link_service{
+    margin-top: 50px;
+    color: rgba(220, 20, 60, 0.747);
+    font-weight: bold;
+}
+.link_service:hover{
+    text-decoration: none;
+    color: rgba(220, 20, 60, 0.747);
+}
+p{
+    color: white;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    max-width: 600px;
+}
+h4{
+    font-weight: lighter;
+    color: white;
+}
+h5{
+    color: white;
+    font-weight: lighter;
+    margin: 20px;
+    letter-spacing: 0.1em;
+}
+.button--div{
+    margin-top: 40vh;
+}
+.front__img{
+    width: 900px;
+    height: auto;
+}
+label{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
