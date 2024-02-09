@@ -12,7 +12,7 @@ export default function Emploi() {
     useEffect(() => {
         const fetchData = async () => {
         try {
-            const response = await fetch('/src/assets/articles.json');
+            const response = await fetch('/articles.json');
             const data = await response.json();
             setJsonData(data);
         } catch (error) {
