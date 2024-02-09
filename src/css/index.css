@@ -1,0 +1,9 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+button{
+    border-bottom-right-radius: 20px;
+}
