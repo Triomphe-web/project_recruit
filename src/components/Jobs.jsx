@@ -5,7 +5,7 @@ import '../css/bootstrap.css'
 export default function Feedback(props){
     const {image,name, desc} = props
     return(
-        <div className="d-flex">
+        <div className="d-flex m-4 border border-dark">
             <div>
                 <img src={image} alt="image" width={90} height={90}/>
             </div>

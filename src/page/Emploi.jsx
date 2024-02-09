@@ -16,27 +16,54 @@ export default function Emploi() {
                 <button type="submit" class="btn btn-primary rounded-start">Rechercher</button>
             </form>
         </div>
-            <div className="ml-5 mt-4">
-                <Jobs
-                    image={hiring}
-                    name="Développeur .NET"
-                    desc="Nous recrutons plusieur Développeur .NET"
-                    
-                />
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-xs-12 col-md-6">
+                        <Jobs
+                            image={hiring}
+                            name="Développeur .NET"
+                            desc="Nous recrutons plusieur Développeur .NET"
+                        
+                        />
 
-                <Jobs
-                    image={hiring}
-                    name="Développeur React"
-                    desc="Nous recrutons plusieur Développeur .NET"
-                    
-                />
+                        <Jobs
+                            image={hiring}
+                            name="Développeur React"
+                            desc="Nous recrutons plusieur Développeur .NET"
+                            
+                        />
 
-                <Jobs
-                    image={hiring}
-                    name="Développeur Python"
-                    desc="Nous recrutons plusieur Développeur .NET"
-                    
-                />
+                        <Jobs
+                            image={hiring}
+                            name="Développeur Python"
+                            desc="Nous recrutons plusieur Développeur .NET"
+                            
+                        />
+                    </div>
+
+                    <div className="col-xs-12 col-md-6">
+                        <Jobs
+                            image={hiring}
+                            name="Développeur .NET"
+                            desc="Nous recrutons plusieur Développeur .NET"
+                        
+                        />
+
+                        <Jobs
+                            image={hiring}
+                            name="Développeur React"
+                            desc="Nous recrutons plusieur Développeur .NET"
+                            
+                        />
+
+                        <Jobs
+                            image={hiring}
+                            name="Développeur Python"
+                            desc="Nous recrutons plusieur Développeur .NET"
+                            
+                        />
+                    </div>
+                </div>
             </div>
         </div>
         
