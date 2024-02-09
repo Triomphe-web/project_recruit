@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Illustrateur photoshop",
+        "company": "BUROSERVICES",
+        "contrat": "Contrat CDI",
+        "desc": "Responsabilités : Concevoir des illustrations, des maquettes en utilisant Adobe Photoshop Collaboration : Travailler en étroite collaboration avec les membres de l'équipe pour comprendre les besoins…"
+    },
+    {
+        "title": "RESPONSABLE INFRASTRUCTURE ET RESEAUX INFORMATIQUE",
+        "company": "Grande Distribution",
+        "contrat": "Contrat CDI",
+        "desc": "- Superviser l'installation, la configuration et la maintenance des serveurs, du matériel informatique et des équipements réseau. - Gérer et surveiller les réseaux locaux (LAN) et étendus (WAN),…                        \nDate limite : 09/03/2024"
+    },
+    {
+        "title": "ADMINISTRATEUR APPLICATIF",
+        "company": "Grande Distribution",
+        "contrat": "Contrat CDI",
+        "desc": "- Installer, configurer et paramétrer les systèmes Sage Paie&RH/CRM/COSWIN conformément aux besoins de l'entreprise. - Assurer la gestion des utilisateurs, des rôles et des autorisations d'accès…                        \nDate limite : 09/03/2024"
+    },
+    {
+        "title": "RESPONSABLE PMO",
+        "company": "Grande Distribution",
+        "contrat": "Contrat CDI",
+        "desc": "- Élaborer et mettre en œuvre les politiques, les processus et les normes de gestion de projets au sein de l'entreprise. - Fournir un soutien méthodologique et opérationnel aux chefs de projet et…                        \nDate limite : 09/03/2024"
+    },
+    {
+        "title": "RESPONSABLE BUSINESS INTELLIGENCE ET DEVELOPPEMENT INFORMATIQUE",
+        "company": "Grande Distribution",
+        "contrat": "Contrat CDI",
+        "desc": "- Diriger l'équipe BI et Développement dans la conception, le développement et le déploiement de solutions informatiques. - Analyser les besoins métier pour identifier les opportunités d'amélioration…                        \nDate limite : 09/03/2024"
+    },
+    {
+        "title": "02 ANALYSTES PROGRAMMEURS",
+        "company": "MGBI MADAGASCAR BUSINESS INTELLIGENCE",
+        "contrat": "Contrat CDI",
+        "desc": "La personne doit avoir des connaissances à la programmation, du système de gestion de base de données PostgreSQL et n'a pas peur d'aborder des technologies/langages de programmation autres que…                        \nDate limite : 25/02/2024"
+    },
+    {
+        "title": "02 DATA ANALYST",
+        "company": "MGBI MADAGASCAR BUSINESS INTELLIGENCE",
+        "contrat": "Contrat CDI",
+        "desc": "Cette personne sera chargée de réaliser des tableaux de gestion, des tableaux opérationnels et des tableaux de reporting en lien avec des applications de gestion (principalement ODOO, SAGE et EBP), de…                        \nDate limite : 25/02/2024"
+    },
+    {
+        "title": "Développeur Full Stack Symfony",
+        "company": "ETALIK SARL",
+        "contrat": "Contrat CDI",
+        "desc": "En tant que développeur Full Stack Symfony, vous serez chargé de la conception, du développement et de la maintenance d'applications web robustes et évolutives. Vous travaillerez en étroite collaboration…                        \nDate limite : 29/02/2024"
+    },
+    {
+        "title": "DEVELOPPEUR SENIOR",
+        "company": "INNOVACALL",
+        "contrat": "Contrat CDI",
+        "desc": "Rejoignez INNOVA pour exprimer votre passion, réaliser votre potentiel et contribuer à notre croissance continue. Nous offrons un salaire compétitif, un environnement stimulant et des opportunités de…"
+    },
+    {
+        "title": "TESTEUR QA SENIOR",
+        "company": "INGENOSYA",
+        "contrat": "Contrat CDI",
+        "desc": "- Garantir le bon état, l’ergonomie et la performance de l'application. - Détecter les anomalies et les dysfonctionnements au fil de son parcours du logiciel, tout en opérant les vérifications nécessaires…"
+    },
+    {
+        "title": "GRAPHISTE",
+        "company": "INGENOSYA",
+        "contrat": "Contrat CDD",
+        "desc": "-\tRetouche et détourage d’image ;\n-\tTraitement d’image ;\n-\tContribution aux diverses tâches en fonction des besoins du client."
+    },
+    {
+        "title": "DEVOPS SENIOR",
+        "company": "INGENOSYA",
+        "contrat": "Contrat CDI",
+        "desc": "-\tMettre en place et maintenir l’infrastructure\n-\tConseiller sur les choix techniques\n-\tDocumenter"
+    }
+]

@@ -25,7 +25,7 @@ export default function App(){
         <div className="container">
             <p className="service">Service</p>
             <h1 className="animate__animated animate__fadeInUp">Bienvenue sur la plateforme de recrutement 100% gratuit et Open-source</h1>
-            <h5>Bienvenue sur E-recruit, la plateforme de recrutement qui vous connecte aux opportunités de carrière exceptionnelles. Nous comprenons l'importance de trouver le bon emploi, celui qui correspond à vos compétences, vos aspirations et vos valeurs. C'est pourquoi nous vous offrons un accès gratuit à notre vaste réseau de recruteurs et d'entreprises à la recherche de talents comme vous.</h5>
+            <h5 className="text">Bienvenue sur E-recruit, la plateforme de recrutement qui vous connecte aux opportunités de carrière exceptionnelles. Nous comprenons l'importance de trouver le bon emploi, celui qui correspond à vos compétences, vos aspirations et vos valeurs. C'est pourquoi nous vous offrons un accès gratuit à notre vaste réseau de recruteurs et d'entreprises à la recherche de talents comme vous.</h5>
             <br />
             <Link to='/acceuil' className="btn btn-warning">Commencer votre carrière</Link>
             

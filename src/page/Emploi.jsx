@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import Jobs from "../components/Jobs";
 import hiring from "../img/hiring.png";
 import '../css/bootstrap.css'
@@ -7,61 +7,44 @@ import Header from "../components/Header";
 
 
 export default function Emploi() {
+    const [jsonData, setJsonData] = useState([]);
+
+    useEffect(() => {
+        const fetchData = async () => {
+        try {
+            const response = await fetch('/src/assets/articles.json');
+            const data = await response.json();
+            setJsonData(data);
+        } catch (error) {
+            console.error('Error fetching JSON data:', error);
+        }
+        };
+
+        fetchData();
+    }, []);
     return (
         <div>
             <Header />
-            <div class="search-container container">
-            <form class="input-group">
-                <input type="text" class="form-control rounded-end" placeholder="Rechercher..." />
-                <button type="submit" class="btn btn-primary rounded-start">Rechercher</button>
+            <div className="search-container container">
+            <form className="input-group">
+                <input type="text" className="form-control rounded-end" placeholder="Rechercher..." />
+                <button type="submit" className="btn btn-primary rounded-start">Rechercher</button>
             </form>
         </div>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-xs-12 col-md-6">
-                        <Jobs
+                    <div className="col-xs-12 col-md-12">
+                    {jsonData.map((item, index) => (
+                    
+                    
+                        <Jobs key={index}
                             image={hiring}
-                            name="Développeur .NET"
-                            desc="Nous recrutons plusieur Développeur .NET"
+                            name={item.title}
+                            company={item.company}
+                            desc={item.desc}
                         
                         />
-
-                        <Jobs
-                            image={hiring}
-                            name="Développeur React"
-                            desc="Nous recrutons plusieur Développeur .NET"
-                            
-                        />
-
-                        <Jobs
-                            image={hiring}
-                            name="Développeur Python"
-                            desc="Nous recrutons plusieur Développeur .NET"
-                            
-                        />
-                    </div>
-
-                    <div className="col-xs-12 col-md-6">
-                        <Jobs
-                            image={hiring}
-                            name="Développeur .NET"
-                            desc="Nous recrutons plusieur Développeur .NET"
-                        
-                        />
-
-                        <Jobs
-                            image={hiring}
-                            name="Développeur React"
-                            desc="Nous recrutons plusieur Développeur .NET"
-                            
-                        />
-
-                        <Jobs
-                            image={hiring}
-                            name="Développeur Python"
-                            desc="Nous recrutons plusieur Développeur .NET"
-                            
-                        />
+                    ))}
                     </div>
                 </div>
             </div>
