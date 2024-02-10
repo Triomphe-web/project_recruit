@@ -1,11 +1,12 @@
 import React from "react";
 import '../css/bootstrap.css'
+import '../css/jobs.css';
 
 
-export default function Feedback(props){
+export default function Jobs(props){
     const {image,name,company, desc} = props
     return(
-        <div className="d-flex m-4 border border-dark">
+        <div className="d-flex m-4 border border-dark jobs">
             <div>
                 <img src={image} alt="image" width={90} height={90}/>
             </div>

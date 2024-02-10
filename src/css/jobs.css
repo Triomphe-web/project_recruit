@@ -1,0 +1,6 @@
+.jobs{
+  border-radius: 15px;
+  padding: 1%;
+  box-shadow: 0 4px 8px 0 rgba(102, 0, 102, 0.038), 0 6px 20px 0 rgba(0, 13, 26, 0.038);
+    background-color: rgba(0, 13, 26, 0.95);
+}

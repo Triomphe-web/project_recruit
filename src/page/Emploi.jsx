@@ -23,32 +23,25 @@ export default function Emploi() {
         fetchData();
     }, []);
     return (
-        <div>
-            <Header />
-            <div className="search-container container">
-            <form className="input-group">
-                <input type="text" className="form-control rounded-end" placeholder="Rechercher..." />
-                <button type="submit" className="btn btn-primary rounded-start">Rechercher</button>
-            </form>
+      <div>
+        <Header />
+        <div className="search-container container">
+          <form className="input-group">
+            <input type="text" className="form-control rounded-end" placeholder="Rechercher..." />
+            <button type="submit" className="btn btn-primary rounded-start">
+              Rechercher
+            </button>
+          </form>
         </div>
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-xs-12 col-md-12">
-                    {jsonData.map((item, index) => (
-                    
-                    
-                        <Jobs key={index}
-                            image={hiring}
-                            name={item.title}
-                            company={item.company}
-                            desc={item.desc}
-                        
-                        />
-                    ))}
-                    </div>
-                </div>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-xs-12 col-md-12 d-flex flex-column px-5 justify-content-center">
+              {jsonData.map((item, index) => (
+                <Jobs key={index} image={hiring} name={item.title} company={item.company} desc={item.desc} />
+              ))}
             </div>
+          </div>
         </div>
-        
-    )
+      </div>
+    );
 }
