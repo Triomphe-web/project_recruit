@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
+import Typewriter from '../components/Typewriter';
 import '../css/bootstrap.css';
 import '../css/app.css';
 import logo from '../img/1094981.jpg';
@@ -25,7 +26,7 @@ export default function App() {
           <div className="col-md-7 panel-left">
             <h3 className="animate__animated animate__fadeInUp">
               Bienvenue sur E-recruit, <br></br>
-              la plateforme de recrutement 100% gratuit et Open-source
+              la plateforme de recrutement 100% <Typewriter text="gratuit et Open-source" />
             </h3>
             <h6 className="text">
               Une plateforme qui vous connecte aux opportunités de carrière exceptionnelles. Nous comprenons l'importance de
@@ -46,7 +47,7 @@ export default function App() {
           </div>
         </div>
         <br />
-        <div className="row feedback">
+        <div className="row feedback d-flex flex-column">
           <hr />
           <h4>Feedback</h4>
           <Feedback
